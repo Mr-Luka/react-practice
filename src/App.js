@@ -18,6 +18,14 @@ function App() {
         {suggestedFriends.map((friend)=>{
           <div className="card">
             <img className="picture" src={friend.picture} alt="user profile"/>
+            <div className="card-text">
+              <h5 className="username">{friend.name}</h5>
+              <span className="mutual-friends">{friend.mutualFriendCount}</span>
+              <div className="card-actions">
+                <button className="primary">Add Friend</button>
+                <button>Remove</button>
+              </div>
+            </div>
           </div>
         })}
       </main>
