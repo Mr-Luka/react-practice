@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 {/* writting a comment */}
+const divStyle = { backgroundColor: "blue" };
+divStyle.backgroundColor = "red";
 function App() {
   return (
     <div className="App">
