@@ -7,13 +7,14 @@ divStyle.backgroundColor = "red";
 
 
 function App() {
-
+const firstName = "Luka";
+const lastName= "Pav";
   return (
     <div className="App">
       <p>add the JSX elements described in these pseudocode comments</p>
       <br />
       <main>
-        <h2>People You May Know</h2>
+        <h2>People You May Know {firstName} {lastName}</h2>
     
         {suggestedFriends.map((friend)=>{
           <div className="card">
